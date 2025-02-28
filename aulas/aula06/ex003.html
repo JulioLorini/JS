@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu arquivo</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, purple, aqua);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá,mundo!</h1> <!-- oi -->
+    <script>
+      /*  var n1 = window.prompt('Digite um número') //prompt da um valor string
+        var n2 = window.prompt('Agora digite outro número')
+        var s = n1 + n2
+        window.alert('O resultado da soma dos dois números é igual a ' + s)
+         //number + number para adição
+         // string + string concatenação 
+         
+         PARA TRANSFORMAR A VARIAVEL N1 EM NUMERO USAR Number.ParseInt(n) ou Number.ParseFloat(n)
+         A MANEIRA MAIS PRATICA E FUNCIONAL É USAR SOMENTE Number()
+         */
+         var n1 = Number(window.prompt('Digite um número'))
+        var n2 = Number(window.prompt('Agora digite outro número'))
+        var s = n1 + n2
+        //window.alert('O resultado da soma dos dois números é igual a ' + s)
+        var idade = Number(window.prompt('Digite sua idade'))
+        var t = idade>=18 ?'maior':'menor'
+        window.alert('Sua idade é ' + t +' que 18 anos')
+        window.alert(`O resultado da soma entre ${n1} e ${n2} é ${s}`)
+
+    </script>
+</body>
+</html>

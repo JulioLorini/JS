@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: rgb(15, 138, 138);
+            color: white;
+            font-size: 18pt;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h11">Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]
+        var corpo = window.document.body
+        // Primeiro parágrafo é selecionado usando [0], segundo [1]...
+        window.document.write('aqui esta a escrita: ' + p1.innerText)
+        corpo.style.background = 'black'
+        p1.style.color = 'aqua'
+       // window.alert(p1.innerText)
+        //window.alert(p1.innerHTML)
+        //transformei em comentario para não atrapalhar com pop-ups
+        /* var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+         d.innerText = 'estou aguardando' */
+        //window.document.getElementById('msg').innerText = 'oi'
+        //essa é outra forma, porém mais chato
+        var h = window.document.getElementsByClassName('h11')[0]
+        h.style.background = 'purple'
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'wheat'
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Ola
+    </h1>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cupiditate velit praesentium suscipit ad iure distinctio neque quae aliquam dolorem! Veritatis quo doloribus perspiciatis? Aliquam reiciendis animi unde voluptas itaque!</p>
+    <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam esse dolorem, nisi quasi aut ipsum. Atque repellendus ipsam nihil perferendis rem soluta explicabo aliquam accusamus voluptate fugit! Ducimus, exercitationem neque.</p>
+    <div id="div">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cumque iure, corporis veniam perferendis quo odit harum, mollitia repellendus, numquam iste? Eum aspernatur provident accusantium eius, laborum minus non ex?
+    </div>
+    <nav class="nav">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid hic cumque maiores, perferendis beatae earum quis tempora nesciunt veniam totam molestiae ut repudiandae error quae vitae porro illum officiis!
+    </nav>
+</body>
+<script>
+    var div = document.getElementById('div')
+    div.style.background = 'aqua'
+    div.style.fontFamily = 'arial'
+    var nav = document.querySelector('nav.nav')
+    nav.style.background = 'green'
+    nav.style.color = 'white'
+    var h = document.getElementsByTagName('h1')[0]
+    h.style.color = 'Purple'
+    h.style.background = 'black'
+    var p1 = document.getElementById('p1')
+    p1.style.background ='brown'
+    p1.style.color = 'white'
+    var all = document.querySelector('nav.nav')
+    all.style.fontFamily ='georgia'
+    h.innerText = 'Bem vindo ao meu exercicio'
+</script>
+</html>

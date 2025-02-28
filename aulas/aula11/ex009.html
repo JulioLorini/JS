@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual seu país</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: green;
+            text-align: center;
+            padding-top: 200px;
+            color: yellow;
+        }
+        input{
+            background-color: blue;
+        }
+        div{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voce é Brasileiro?</h1>
+    <p>Em que país voce vive</p>
+    <input type="text" name="país" id="país">
+    <input type="button" value="Conferir" onclick="conferir()">
+    <div id="div">
+
+    </div>
+    <script>
+        function conferir(){
+        var país = document.getElementById('país')
+        var txt = document.querySelector('div#div')
+        if (país.value == 'Brasil'){
+            txt.innerHTML = 'Sim!Voce é Brasileiro!'
+        }else{
+            txt.innerHTML = 'Não :(, voce é estrangeiro!'
+        }
+        }
+    </script>
+</body>
+</html>
