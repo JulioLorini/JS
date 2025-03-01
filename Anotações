@@ -316,3 +316,40 @@ Condição composta: if(condição){true}else{false}
 
 Exemplos em: Ex009.html, ex009.js, ex010.html
 
+
+Aula 12:
+
+Condições aninhadas:
+Mais de duas opções: elseif
+if(cond1){
+	bloco1
+}else{
+	if(cond2){
+	  Bloco 2
+	}else{
+	  Bloco 3 - pode colocar outra condição
+	}
+}
+
+Hora em tempo real, alguns el ifs
+
+Ex011.js e ex012.js
+
+Condição múltipla:
+
+switch(expressão{
+case valor 1:
+
+break
+case valor 2:
+
+break
+case valor 3:
+
+break
+default:
+
+break
+}
+
+O break é necessário pois o switch irá selecionar um dos cases, ou o default, após selecionar ele vai jogar para fora do bloco quando achar o break, então cada case precisa de um break para o caso de ser selecionado
