@@ -353,3 +353,9 @@ break
 }
 
 O break é necessário pois o switch irá selecionar um dos cases, ou o default, após selecionar ele vai jogar para fora do bloco quando achar o break, então cada case precisa de um break para o caso de ser selecionado
+
+Exercícios modulo D
+
+A forma do curso para alterar imagens está defasada, a forma correta é a presente no arquivo
+
+Arquivo: ex014
