@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background-color: #515159;
+                text-align: center;
+            }
+            main{
+                background-color: white;
+                margin: auto;
+                width: 500px;
+                height: 400px;
+                border-radius: 15px;
+                text-align: left;
+                padding: 20px;
+                line-height: 1.4;
+            }
+            div#res{
+                text-align: center;
+                margin: 10px;
+            }
+            div#img{
+                text-align: center;
+            }
+            h1{
+                padding: 20px;
+                color: white;
+            }
+            input{
+                margin: 10px;
+            }
+            footer{
+                padding: 10px;
+                color: white;
+                font-style: italic;
+            }
+            img{
+                margin: 30px;
+                width: 200px;
+                height: 200px;
+                border-radius: 500px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Verifique sua idade</h1>
+    <main>
+        <div>
+            Ano de nascimento : <input type="number" name="nmr" id="nmr">
+            <br>
+            Sexo: <input type="radio" name="radsex" id="masc" checked>  
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">  
+            <label for="fem">Feminino</label>
+            <br>
+            <input type="button" value="Verificar" onclick="verificar()">
+            <br>
+            <p>Preencha os dados acima para obter o resultado!</p>
+        </div>
+        <div id="res"></div>
+        <div id="img">
+            <img src="imagens/" alt="fotografia pessoa" id="foto">
+        </div>
+    </main>
+    <footer>
+        <p> &copy; Cursoemvideo </p>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
