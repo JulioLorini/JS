@@ -359,3 +359,86 @@ Exercícios modulo D
 A forma do curso para alterar imagens está defasada, a forma correta é a presente no arquivo
 
 Arquivo: ex014
+
+
+JavaScript módulo E:
+
+Aula 13:
+
+While:
+
+Exemplo de while
+
+Uma pizza com 8 fatias:
+
+Function (comerpizza()){
+Comerfatia()
+Comerfatia()
+…
+
+}
+
+Function(comerpizza(){
+while(temfatia{
+comerfatia()
+}
+
+}
+
+Do: Quando a repetição de while vier depois, usamos Do{}while()
+
+Ex:do{
+Lorem ipsum
+]while(condição)
+
+Ambas as variantes dão o mesmo resultado, porém while é mais uilizado
+
+
+Aula 14:
+
+for(inicio; teste; incr){
+
+}
+
+Ps:Inicio, teste e incremento
+Se o teste for verdadeiro(dentro do bloco pode ser qualquer estrutura if, else, while, switch etc…)
+Fará o teste logico e entra em looping enquanto o teste é verdadeiro, vira fácil e parte para o incremento apenas se o resultado for falso
+
+Exemplos:
+Var c=1
+while(c<=10){
+c++
+}
+Repetirá 10 vezes
+
+for(various c=1;c<=10;c++){
+
+}
+Ambos os códigos dão o mesmo resultado
+
+
+
+JavaScript módulo F
+
+
+Aula 15:
+
+Array: em vez de var = a, var = b etc… usar 
+Vaga a =[x,x,x]cada x receberá um índice, sendo o primeiro a0, o segundo a1 e assim por diante…
+A é um array/vetor, vetores são compostos por elementos e cada elemento é um indice/chave(a0,
+ a1, a2), mais conhecido como key.
+Um array é uma variável com vários elementos, cada elemento é composto por seu valor e uma chave de identificação(key)
+
+Ex: let num = [5,8,4] sendo 5=0, 8=1 e 4=2
+
+Num.sort() = Ordena os elementos, no caso da imagem a casa 0 seria 4, 1 seria 5, 2 seria 6…
+
+
+
+Abaixo estão as formas de mostrar os valores no array, alem dos exemplos no arquivo da aula 15 no vscode
+
+
+num.indexOf()
+Index sempre será a key na qual o valor se encontra, caso o valor não exista o js retornará -1
+
+
