@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(78, 78, 165);
+            font: normal 10pt arial;
+        }
+        header{
+            color: white;
+            text-align: center;
+            font-size:30px;
+        }
+        section{
+            background-color: white;
+            line-height: 3em;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.324);
+        }
+        footer{
+            color: white;
+            text-align: center;
+            font-style: italic;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+            Início: <input type="number" name="txtin" id="txtin">
+            <br>
+            Fim: <input type="number" name="txtfm" id="txtfm">
+            <br>
+            Passo: <input type="number" name="txtps" id="txtps">
+            <br>
+            <input type="button" value="Contar" onclick="contar()">
+        </div>
+        <div id="res">
+            <p></p>
+        </div>
+    </section>
+    <footer>
+        @Cursoemvideo
+    </footer>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

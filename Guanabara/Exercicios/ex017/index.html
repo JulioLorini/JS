@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(78, 78, 165);
+            font: normal 15pt arial;
+        }
+        header{
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section{
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.324);
+        }
+        footer{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabuada com JS</h1>
+    </header>
+    <section>
+        <div>
+            Número <input type="number" name="nmr" id="nmr">
+            <input type="button" value="Gerar Tabuada" onclick="clicar()">
+            
+        </div>
+        <div>
+            <select name="tabuada" id="tbd" size="10">
+            </select>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
