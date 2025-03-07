@@ -3,7 +3,7 @@ for(let n = 0;n<valores.length;n++){
     console.log(`a posição ${n} tem o valor ${valores[n]}`)
 }
 
-//ou
+ou
 
 for(let c in valores){
     console.log(`a posição ${c} tem o valor ${valores[c]}`)

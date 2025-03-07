@@ -442,3 +442,15 @@ num.indexOf()
 Index sempre será a key na qual o valor se encontra, caso o valor não exista o js retornará -1
 
 
+Aula 16:
+
+Funções:
+São ações executadas quando são chamadas ou em decorrência de um evento
+-  Uma função pode receber parâmetros e retornar um resultado
+
+Chamada: quando a função é designada
+Parametro(ou conjunto de parâmetros): aquilo que será usado para realizar a função
+Ação: realizando a ação
+Retorno: o resultado
+
+
